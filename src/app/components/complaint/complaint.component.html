@@ -1,0 +1,106 @@
+<app-site-header></app-site-header>
+<app-navigation></app-navigation>
+
+<div class="container"></div>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-xl-1"></div>
+
+    <div class="col-xl-10">
+
+      <form method="post">
+        <div class="card rounded-0">
+          <div class="card-header p-0">
+            <div class=" text-center py-2" style="background-color: #263238;">
+              <h3 style="color: white;"><i class="fa fa-envelope"></i> نموذج تقديم شكوى</h3>
+              <p class="m-0" style="color: white;">محافظة بيت لحم</p>
+            </div>
+          </div>
+          <div class="card-body p-3">
+
+            <!--Body-->
+            <div class="form-group">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="fa fa-user" style="color: #234f6d;"></i></div>
+                </div>
+                <input type="text" class="form-control" id="personName" name="personName" placeholder="الاسم الرباعي" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="far fa-id-card" style="color: #234f6d;"></i></div>
+                </div>
+                <input type="text" class="form-control" id="idNumber" name="idNumber" placeholder="رقم الهوية" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="fas fa-phone" style="color: #234f6d;"></i></div>
+                </div>
+                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="رقم الجوال" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="far fa-newspaper" style="color: #234f6d;"></i></div>
+                </div>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="الموضوع" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="far fa-building" style="color: #234f6d;"></i></div>
+                </div>
+                  <select class="form-control" id="complaintOn" name="complaintOn" [(ngModel)]="selectedValue" required>
+                    <option disabled selected hidden value="">الجهة المشتكى عليها</option>
+                    <option value="مديرية الزرارعة">مديرية الزراعة</option>
+                    <option value="مديرية التربية والتعليم">مديرية التربية والتعليم</option>
+                    <option value="مديرية الصحة">مديرية الصحة</option>
+                    <option value="مديرية التنمية الاجتماعية">مديرية التنمية الاجتماعية</option>
+                    <option value="سلطة الأراضي">سلطة الأراضي</option>
+                    <option value="محكمة الصلح">محكمة الصلح</option>
+                    <option value="others" class="">غير ذلك...</option> &nbsp;&nbsp;
+                  </select>
+                  <input class="" *ngIf="selectedValue=='others'" type="text" placeholder="الجهة المشتكى عليها" id="comID" required>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="form-group">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="fa fa-comment" style="color: #234f6d;"></i></div>
+                </div>
+                <textarea class="form-control" placeholder="نص الشكوى" required></textarea>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <input
+                type="submit"
+                value="إرسال الشكوى"
+                class="btn  btn-block rounded-0 py-2"
+                style="background-color: #263238; color: white;"
+                (click)="sendComplaint()"
+               >
+            </div>
+          </div>
+
+        </div>
+      </form>
+    </div>
+    <div class="col-xl-1"></div>
+  </div>
+</div>
+<div class="container" style="height: 12rem;"></div>
+<app-footer id="footer"></app-footer>

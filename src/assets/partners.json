@@ -1,0 +1,138 @@
+{
+  "partners":
+  [
+    {
+      "id": 1,
+      "title": "مجلس الوزراء",
+      "pageurl": "http://www.palestinecabinet.gov.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/ministers-council.png",
+          "alt-text": "مجلس الوزراء"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "وزارة السياحة والآثار",
+      "pageurl": "https://tourism.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/tourism-logo.png",
+          "alt-text": " وزارة السياحة والآثار"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "وزارة العدل",
+      "pageurl": "http://www.moj.pna.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/justice-logo.png",
+          "alt-text": "وزارة العدل"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "وزارة التنمية الاجتماعية",
+      "pageurl": "https://www.mosa.gov.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/social-development-logo.jpg",
+          "alt-text": "وزارة التنمية الاجتماعية"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "وزارة الخارجية وشؤون المغتربين",
+      "pageurl": "http://www.mofa.pna.ps/ar-jo/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/MOFA_logo.png",
+          "alt-text": "وزارة الخارجية وشؤون المغتربين"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "وزارة الحكم المحلي",
+      "pageurl": "https://www.molg.pna.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/local-logo.png",
+          "alt-text": "وزارة الحكم المحلي"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "وزارة العمل",
+      "pageurl": "http://www.mol.pna.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/labour-logo.png",
+          "alt-text": "وزارة العمل"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "وزارة المالية",
+      "pageurl": "http://www.pmof.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/finance-logo.png",
+          "alt-text": "وزارة المالية"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "وزارة النقل والمواصلات",
+      "pageurl": "http://www.mot.gov.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/transport-logo.png",
+          "alt-text": "وزارة النقل والمواصلات"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "وزارة الصحة",
+      "pageurl": "https://www.site.moh.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/health-logo.png",
+          "alt-text": "وزارة الصحة"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "وزارة شؤون المرأة",
+      "pageurl": "https://www.mowa.pna.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/women-logo.png",
+          "alt-text": "وزارة شؤون المرأة"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "وزارة الزراعة",
+      "pageurl": "https://www.moa.pna.ps/",
+      "images": [
+        {
+          "url": "../../assets/img/partners/agriculture-logo.png",
+          "alt-text": "وزارة الزراعة"
+        }
+      ]
+    }
+  ]
+}
+

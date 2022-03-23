@@ -1,0 +1,44 @@
+.container {
+  margin-top: 10px;
+}
+
+.col-md-12 {
+  margin-right: 20px;
+  margin-left: 150px;
+}
+
+.news {
+  width: 160px;
+  color: black;
+}
+
+.news-scroll a {
+  text-decoration: none
+}
+
+marquee div
+{
+  white-space:nowrap;
+}
+
+.recent-news {
+  background-color: #234f6d;
+}
+
+.recent-news span {
+  font-weight: 600;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px !important;
+  background-color: rgb(15, 15, 15);
+  color: black;
+  border-radius: 50%;
+  display: inline-block
+}
+
+

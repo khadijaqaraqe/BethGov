@@ -1,0 +1,25 @@
+<app-site-header></app-site-header>
+<app-navigation></app-navigation>
+<div class="container">
+  <div class="row">
+
+    <form (submit)="onAddArticle(postForm)" #postForm="ngForm">
+
+      <input matInput type="text" name="title" ngModel required minlength="3" placeholder="العنوان" #title="ngModel">
+
+      <app-ngx-editor [spellcheck]="true" [(ngModel)]="htmlContent"></app-ngx-editor> <!--[config]="editorConfig"-->
+
+      <div class="NgxEditor__Wrapper">
+        <ngx-editor-menu [editor]="editor"> </ngx-editor-menu>
+        <ngx-editor [editor]="editor" [ngModel]="html" [disabled]="false" [placeholder]="'أدخل النص هنا..'">
+        </ngx-editor>
+      </div>
+
+      <button mat-raised-button color="accent" type="submit">حفظ</button>
+
+    </form>
+
+  </div>
+</div>
+
+<app-footer></app-footer>

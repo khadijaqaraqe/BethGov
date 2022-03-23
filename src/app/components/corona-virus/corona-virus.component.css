@@ -1,0 +1,31 @@
+.features {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.rounded-circle {
+  height: 90px;
+  width: 90px;
+}
+
+i {
+  color: #234f6d;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover i {
+  color: #fc3f00 ;
+}
+
+a:hover h5{
+  color: #fc3f00;
+  font-weight: 600;
+}
+
+hr.solid {
+border-top: 1px solid #999;
+}
+

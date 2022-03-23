@@ -1,0 +1,30 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+      <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+        <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center py-2 text-white px-1 news recent-news">
+          <span class="d-flex align-items-center ">&nbsp;أخبار المحافظة</span>
+        </div>
+        <marquee
+          class="news-scroll"
+          behavior="scroll"
+          direction="right"
+          onmouseover="this.stop();"
+          onmouseout="this.start();">
+          <div>
+            <a
+              class="news"
+              href="#"
+              *ngFor="let item of articles"
+              target="_blank">
+              {{item.title}} &nbsp;&nbsp; <span class="dot"> </span> &nbsp;&nbsp;
+            </a>
+          </div>
+        </marquee>
+      </div>
+
+    </div>
+  </div>
+</div>

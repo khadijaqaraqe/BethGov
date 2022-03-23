@@ -1,0 +1,148 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-3" >
+
+      <div class="block">
+        <div class="block-heading">
+          <h2>منوعات</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 center">
+          <a routerLink="/institute">
+            <i class="fa fa-graduation-cap fa-5x rounded-circle"></i>
+            <h6>مؤسسات تعليمية</h6>
+          </a>
+        </div>
+        <div class="col-md-6 center">
+          <a routerLink="/facts">
+            <i class="fa fa-phone-volume fa-5x rounded-circle"></i>
+            <h6>شائعات وحقائق</h6>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 center">
+          <a routerLink="/publicSafety">
+            <i class="fa fa-road fa-5x rounded-circle"></i>
+            <h6>السلامة العامة</h6>
+          </a>
+        </div>
+        <div class="col-md-6 center">
+          <a routerLink="/numbers">
+            <i class="fa fa-hashtag fa-5x rounded-circle"></i>
+            <h6>بيت لحم في أرقام</h6>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+      <div class="block">
+        <div class="block-heading">
+          <h2 style="font-size: 1.46pc; line-height: 1.6; font-weight: 600;">الوضع السياسي</h2>
+        </div>
+      </div>
+
+      <div class="card bottom-buffer"
+        *ngFor="let article of articles | slice:0:3;"
+        [routerLink]="['/articles', article.id]">
+        <div class="card-img-top d-flex align-items-center bg-light" >
+          <div class="row">
+            <div class="col-md-3">
+                <img src="{{article.images[0].url}}" alt="{{article.title}}" >
+            </div>
+            <div class="col-md-9">
+              <p class="col p-2 m-0 font-weight-600">{{article.title}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+      <div class="block">
+        <div class="block-heading">
+          <h2>اقتصاديات</h2>
+        </div>
+      </div>
+
+      <div class="row center">
+        <a routerLink="/investMap" class="mapping">
+          <i class="fa fa-map fa-3x rounded-circle"></i>
+          <span>&nbsp;&nbsp;&nbsp;الخارطة الاستثمارية</span>
+        </a>
+      </div>
+
+      <div class="row">
+        <div class="card bottom-buffer"
+          *ngFor="let article of articles | slice:0:2;"
+          [routerLink]="['/articles', article.id]">
+          <div class="card-img-top d-flex align-items-center bg-light" >
+            <div class="row">
+              <div class="col-md-3">
+                  <img src="{{article.images[0].url}}" alt="{{article.title}}" >
+              </div>
+              <div class="col-md-9">
+                <p class="col p-2 m-0 font-weight-600">{{article.title}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="col-md-3">
+
+      <div class="block">
+        <div class="block-heading">
+          <h2>شاركنا برأيك</h2>
+        </div>
+      </div>
+
+      <div class="col-md-12" [hidden]="isShow">
+        <div id="piechart" style="float:left;"></div>
+        <!-- <div id="chartContainer" style="height: 220px; width: 370px; float:left;"></div> -->
+
+      </div>
+
+      <div class="col-md-12" *ngIf="isShow">
+        <form class=" bg-white px-4" action="">
+          <p class="fw-bold">شاركنا برأيك في؟ </p>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio1" value="72" />
+            <label class="form-check-label" for="radioExample1">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;راضٍ
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2" value="47" />
+            <label class="form-check-label" for="radioExample2">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;مقبول
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio3" value="45" />
+            <label class="form-check-label" for="radioExample3">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;غير راضٍ
+            </label>
+          </div>
+        </form>
+        <div class="text-end">
+          <button type="button" class="btn btn-primary" (click)=toggleDisplay()>مشاركة</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

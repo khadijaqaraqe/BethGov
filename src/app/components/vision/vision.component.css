@@ -1,0 +1,26 @@
+
+.block-heading {
+	background-image: url("../../../assets/img/elements/titleBorder.png");
+	background-repeat: repeat-x;
+	height: 20px;
+	margin: 30px 0;
+	text-align: center;
+}
+
+.block-heading h2 {
+	background: #fff;
+	display: inline-block;
+	color: #000;
+	margin-top: -28px;
+	padding: 5px 30px 10px 30px;
+  font-family: "Cairo", sans-serif;
+	border: 1px solid #dedede;
+}
+
+.block-heading h2:hover {
+	box-shadow: 0 0 5px #dedede;
+}
+
+.container {
+  margin-bottom: 10px;
+}

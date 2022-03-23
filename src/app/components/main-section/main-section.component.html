@@ -1,0 +1,64 @@
+<div class="container-scroller top-buffer">
+
+  <div class="main-panel">
+    <div class="container">
+
+      <div class="col-md-12">
+
+        <div class="row no-gutters">
+
+          <div class="col-md-5 ">
+
+            <div class="card bottom-buffer" style="width:95%;"
+              *ngFor="let article of articles | slice:0:3;"
+              [routerLink]="['/articles', article.id]">
+              <div class="card-img-top d-flex align-items-center bg-light" >
+                <div class="row">
+                  <div class="col-md-6 position-relative image-hover">
+                      <img class="img-fluid" src="{{article.images[0].url}}" alt="{{article.title}}" >
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="card-title font-weight-600">{{article.category}}</h5>
+                    <p class="col p-2 m-0 font-weight-600">{{article.title}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-7 top-buffer">
+
+            <div class="owl-carousel owl-theme owl-loaded owl-drag " id="main-banner-carousel">
+              <div class="owl-stage-outer">
+                <div class="owl-stage">
+                  <ngb-carousel #carousel>
+                    <ng-template ngbSlide *ngFor="let article of articles | slice:0:5;" >
+                      <a [routerLink]="['/articles', article.id]">
+                        <div class="img-block">
+                          <img class="img-fluid" src="{{article.images[0].url}}" alt="{{article.title}}">
+                        </div>
+                        <div class="carousel-caption">
+                          <div class="section rounded bg-light opacity-75">
+                            <h3 class="font-weight-600">{{article.category}}</h3>
+                            <p class="font-weight-600">{{article.title}}</p>
+                          </div>
+                        </div>
+                      </a>
+                    </ng-template>
+                  </ngb-carousel>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,726 @@
+{
+  "directorate":
+  [
+    {
+      "id": 1,
+      "title": "مديرية التربية والتعليم",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "مديرية التنمية الاجتماعية",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "مديرية الصحة",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "مديرية الحكم المحلي",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "مديرية الاقتصاد الوطني",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "مديرية الزراعة",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "مديرية وزارة العمل",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "مديرية الاقتصاد الوطني",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "مديرية النقل والمواصلات",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+           "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "",
+      "director": "",
+      "pageurl": "",
+      "location": "",
+      "phoneNumbers": [
+        {
+          "number1": "",
+          "number2": ""
+        }
+      ],
+      "socialLinks":  [
+        {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "linkedin": "",
+          "whatsapp": "",
+          "youtube": ""
+        }
+      ],
+      "GoogleMapLocation": "",
+      "images": [
+        {
+          "url": "",
+          "alt-text": ""
+        }
+      ]
+    }
+  ]
+}
+

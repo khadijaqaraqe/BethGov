@@ -1,0 +1,212 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-5">
+
+      <div class="block">
+        <div class="block-heading">
+          <h2>مواقع صديقة</h2>
+        </div>
+      </div>
+
+      <div class="container my-4">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+          <!--Controls-->
+          <div class="controls-top">
+            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+          </div>
+          <!--/.Controls-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4 clearfix d-none d-md-block" *ngFor="let partner of partners.partners | slice:0:3;">
+                  <div class="card mb-2">
+                    <a href="{{partner.pageurl}}" target="_blank">
+                      <img class="card-img-top" src="{{partner.images[0].url}}" alt="{{partner.title}}">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.First slide-->
+            <!--Second slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4 clearfix d-none d-md-block" *ngFor="let partner of partners.partners | slice:3:6;">
+                  <div class="card mb-2">
+                    <a href="{{partner.pageurl}}" target="_blank">
+                      <img class="card-img-top" src="{{partner.images[0].url}}" alt="{{partner.title}}">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Second slide-->
+            <!--Third slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4 clearfix d-none d-md-block" *ngFor="let partner of partners.partners | slice:6:9;">
+                  <div class="card mb-2">
+                    <a href="{{partner.pageurl}}" target="_blank">
+                      <img class="card-img-top" src="{{partner.images[0].url}}" alt="{{partner.title}}">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Third slide-->
+            <!--Fourth slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4 clearfix d-none d-md-block"
+                  *ngFor="let partner of partners.partners | slice:9:12;">
+                  <div class="card mb-2">
+                    <a href="{{partner.pageurl}}" target="_blank">
+                      <img class="card-img-top" src="{{partner.images[0].url}}" alt="{{partner.title}}">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Fourth slide-->
+          </div>
+          <!--/.Slides-->
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div class="block">
+        <div class="block-heading">
+          <h2>مديريات محافظة بيت لحم </h2>
+        </div>
+      </div>
+      <div class="container my-4">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+          <!--Controls-->
+          <div class="controls-top">
+            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+          </div>
+          <!--/.Controls-->
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+            <li data-target="#multi-item-example" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.First slide-->
+            <!--Second slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Second slide-->
+            <!--Third slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Third slide-->
+          </div>
+          <!--/.Slides-->
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="block">
+        <div class="block-heading">
+          <h2>الموقع الجغرافي لمقر المحافظة </h2>
+        </div>
+      </div>
+      <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 150px">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d356.79286116263637!2d35.210281999779866!3d31.7048335546485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1644146784045!5m2!1sen!2s"
+          style="border:0; height:100%; width:100%;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
